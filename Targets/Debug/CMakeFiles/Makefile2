@@ -65,16 +65,19 @@ CMAKE_BINARY_DIR = /home/codingruo/_Development/Learning/Books/EmpyGameEngine/Ta
 # The main recursive "all" target.
 all: EmpyEngine/all
 all: EmpyEditor/all
+all: EmpyGame/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: EmpyEngine/preinstall
 preinstall: EmpyEditor/preinstall
+preinstall: EmpyGame/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: EmpyEngine/clean
 clean: EmpyEditor/clean
+clean: EmpyGame/clean
 .PHONY : clean
 
 #=============================================================================
@@ -106,6 +109,21 @@ EmpyEngine/preinstall:
 # Recursive "clean" directory target.
 EmpyEngine/clean: EmpyEngine/CMakeFiles/Engine.dir/clean
 .PHONY : EmpyEngine/clean
+
+#=============================================================================
+# Directory level rules for directory EmpyGame
+
+# Recursive "all" directory target.
+EmpyGame/all: EmpyGame/CMakeFiles/Game.dir/all
+.PHONY : EmpyGame/all
+
+# Recursive "preinstall" directory target.
+EmpyGame/preinstall:
+.PHONY : EmpyGame/preinstall
+
+# Recursive "clean" directory target.
+EmpyGame/clean: EmpyGame/CMakeFiles/Game.dir/clean
+.PHONY : EmpyGame/clean
 
 #=============================================================================
 # Target rules for target EmpyEngine/CMakeFiles/Engine.dir
@@ -158,6 +176,32 @@ Empy: EmpyEditor/CMakeFiles/Empy.dir/rule
 EmpyEditor/CMakeFiles/Empy.dir/clean:
 	$(MAKE) $(MAKESILENT) -f EmpyEditor/CMakeFiles/Empy.dir/build.make EmpyEditor/CMakeFiles/Empy.dir/clean
 .PHONY : EmpyEditor/CMakeFiles/Empy.dir/clean
+
+#=============================================================================
+# Target rules for target EmpyGame/CMakeFiles/Game.dir
+
+# All Build rule for target.
+EmpyGame/CMakeFiles/Game.dir/all: EmpyEngine/CMakeFiles/Engine.dir/all
+	$(MAKE) $(MAKESILENT) -f EmpyGame/CMakeFiles/Game.dir/build.make EmpyGame/CMakeFiles/Game.dir/depend
+	$(MAKE) $(MAKESILENT) -f EmpyGame/CMakeFiles/Game.dir/build.make EmpyGame/CMakeFiles/Game.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/codingruo/_Development/Learning/Books/EmpyGameEngine/Targets/Debug/CMakeFiles --progress-num=5,6 "Built target Game"
+.PHONY : EmpyGame/CMakeFiles/Game.dir/all
+
+# Build rule for subdir invocation for target.
+EmpyGame/CMakeFiles/Game.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/codingruo/_Development/Learning/Books/EmpyGameEngine/Targets/Debug/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EmpyGame/CMakeFiles/Game.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/codingruo/_Development/Learning/Books/EmpyGameEngine/Targets/Debug/CMakeFiles 0
+.PHONY : EmpyGame/CMakeFiles/Game.dir/rule
+
+# Convenience name for target.
+Game: EmpyGame/CMakeFiles/Game.dir/rule
+.PHONY : Game
+
+# clean rule for target.
+EmpyGame/CMakeFiles/Game.dir/clean:
+	$(MAKE) $(MAKESILENT) -f EmpyGame/CMakeFiles/Game.dir/build.make EmpyGame/CMakeFiles/Game.dir/clean
+.PHONY : EmpyGame/CMakeFiles/Game.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

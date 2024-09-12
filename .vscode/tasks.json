@@ -14,6 +14,7 @@
         },
   
         "linux": {
+          "sudo": true,
           "args": ["Debug"],
           "command": "${workspaceFolder}/EmpyLinux.sh"
         }
@@ -31,6 +32,7 @@
         },
   
         "linux": {
+          "sudo": true,
           "args": ["Release"],
           "command": "${workspaceFolder}/EmpyLinux.sh"
         }

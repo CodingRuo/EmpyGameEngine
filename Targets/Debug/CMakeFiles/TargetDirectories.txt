@@ -6,3 +6,6 @@
 /home/codingruo/_Development/Learning/Books/EmpyGameEngine/Targets/Debug/EmpyEditor/CMakeFiles/Empy.dir
 /home/codingruo/_Development/Learning/Books/EmpyGameEngine/Targets/Debug/EmpyEditor/CMakeFiles/edit_cache.dir
 /home/codingruo/_Development/Learning/Books/EmpyGameEngine/Targets/Debug/EmpyEditor/CMakeFiles/rebuild_cache.dir
+/home/codingruo/_Development/Learning/Books/EmpyGameEngine/Targets/Debug/EmpyGame/CMakeFiles/Game.dir
+/home/codingruo/_Development/Learning/Books/EmpyGameEngine/Targets/Debug/EmpyGame/CMakeFiles/edit_cache.dir
+/home/codingruo/_Development/Learning/Books/EmpyGameEngine/Targets/Debug/EmpyGame/CMakeFiles/rebuild_cache.dir

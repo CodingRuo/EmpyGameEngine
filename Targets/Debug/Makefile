@@ -142,6 +142,19 @@ Empy/fast:
 	$(MAKE) $(MAKESILENT) -f EmpyEditor/CMakeFiles/Empy.dir/build.make EmpyEditor/CMakeFiles/Empy.dir/build
 .PHONY : Empy/fast
 
+#=============================================================================
+# Target rules for targets named Game
+
+# Build rule for target.
+Game: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Game
+.PHONY : Game
+
+# fast build rule for target.
+Game/fast:
+	$(MAKE) $(MAKESILENT) -f EmpyGame/CMakeFiles/Game.dir/build.make EmpyGame/CMakeFiles/Game.dir/build
+.PHONY : Game/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -152,6 +165,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Empy"
 	@echo "... Engine"
+	@echo "... Game"
 .PHONY : help
 
 

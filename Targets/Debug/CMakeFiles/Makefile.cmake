@@ -10,6 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/codingruo/_Development/Learning/Books/EmpyGameEngine/CMakeLists.txt"
   "/home/codingruo/_Development/Learning/Books/EmpyGameEngine/EmpyEditor/CMakeLists.txt"
   "/home/codingruo/_Development/Learning/Books/EmpyGameEngine/EmpyEngine/CMakeLists.txt"
+  "/home/codingruo/_Development/Learning/Books/EmpyGameEngine/EmpyGame/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
@@ -46,10 +47,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "EmpyEngine/CMakeFiles/CMakeDirectoryInformation.cmake"
   "EmpyEditor/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "EmpyGame/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "EmpyEngine/CMakeFiles/Engine.dir/DependInfo.cmake"
   "EmpyEditor/CMakeFiles/Empy.dir/DependInfo.cmake"
+  "EmpyGame/CMakeFiles/Game.dir/DependInfo.cmake"
   )
