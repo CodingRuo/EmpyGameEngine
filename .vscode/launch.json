@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "cppdbg",
+            "request": "launch",
+            "name": "Editor Linux",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "cwd": "${workspaceFolder}/Targets/Debug/bin",
+            "program": "${workspaceFolder}/Targets/Debug/bin/Empy"
+        },
+        {
+            "type": "cppdbg",
+            "request": "launch",
+            "name": "Game Linux",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "cwd": "${workspaceFolder}/Targets/Debug/bin",
+            "program": "${workspaceFolder}/Targets/Debug/bin/Game"
+        }
+    ]
+}
