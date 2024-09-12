@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "includePath": [
+                "${workspaceFolder}/EmpyEngine/includes",
+                "${workspaceFolder}/EmpyEditor/src",
+                "${workspaceFolder}/EmpyGame/src"
+            ],
+
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "defines": ["EMPY_EXPORT", "EMPY_ENABLE_LOG"],
+            "intelliSenseMode": "${default}",
+            "cppStandard": "c++17",
+            "cStandard": "c17",
+            "name": "cpp-dev"
+        }
+    ],
+    "version": 4
+}
