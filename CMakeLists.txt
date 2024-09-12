@@ -16,10 +16,10 @@ project(EmpyEngine)
 
 # enable console logging
 if(${CMAKE_BUILD_TYPE} MATCHES Debug)
-    add_definitions(-DEMPY_ENABLE_LOG)
+  add_definitions(-DEMPY_ENABLE_LOG)
 endif()
 
 # project subdirectories
 add_subdirectory(EmpyEngine)
 add_subdirectory(EmpyEditor)
-add_subdirectory(EmpyGame)
+#add_subdirectory(EmpyGame)

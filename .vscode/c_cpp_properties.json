@@ -2,13 +2,15 @@
     "configurations": [
         {
             "includePath": [
+                "/home/codingruo/.conan/data/spdlog/1.12.0/_/_/package/9396d3b05eea01628a595aba2be9c61301a17041/include",
+                "/home/codingruo/.conan/data/fmt/10.2.1/_/_/package/026a8d91379d81211ef1ed9ee723e5d409d45db7/include",
                 "${workspaceFolder}/EmpyEngine/includes",
                 "${workspaceFolder}/EmpyEditor/src",
                 "${workspaceFolder}/EmpyGame/src"
-            ],
+            ],  
 
-            "configurationProvider": "ms-vscode.cmake-tools",
-            "defines": ["EMPY_EXPORT", "EMPY_ENABLE_LOG"],
+            "configurationProvider": "ms-vscode.cmake-tools",  
+            "defines": ["EMPY_EXPORT", "EMPY_ENABLE_LOG"],          
             "intelliSenseMode": "${default}",
             "cppStandard": "c++17",
             "cStandard": "c17",
